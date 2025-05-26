@@ -1,0 +1,173 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+body {
+    font-family: Noto Sans TC;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+img {
+    display: block;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+.header ul {
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+}
+.header .nva a{
+    display: block;
+    padding: 24px 20px;
+    text-decoration: none;  
+    font-weight: 700;
+    color: #000000;
+}
+.header .nva a:hover{
+    color: #0051ff81;
+}
+
+
+
+.content {
+	width: 1296px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.content .card-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.content .card-list li.empty {
+	width: 416px;
+	visibility: hidden;
+}
+
+.content .card {
+	width: 416px;
+	padding-bottom: 24px;
+}
+
+.content .card-date {
+	font-weight: 500;
+	line-height: 1.5;
+}
+
+.content .card-tag {
+	display: flex;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 1.5;
+}
+.content .card-tag a {
+	text-decoration: none;
+	display: block;
+	margin-right: 10px;
+}
+
+.content .card-tag .popular {
+	margin-left: 8px;
+	width: 88px;
+	height: 36px;
+	background: #0027d5;
+	color: #ffffff;
+	font-weight: 700;
+	line-height: 1.5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 18px;
+}
+
+.content .card-header h2 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 1.5;
+}
+
+.content .card-body p {
+	height: 48px;
+	font-weight: 500;
+	line-height: 1.5;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.content .card-footer {
+	border-width: 1px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	gap: 4px;
+	border-radius: 40px;
+}
+.content .card-footer a {
+	display: block;
+	width: 96px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 20px;
+	border: 1px solid #000000;
+	font-weight: 500;
+}
+.content .card-footer a:hover {
+	background: #000000;
+	color: #ffffff;
+}
