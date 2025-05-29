@@ -48,12 +48,18 @@ table {
 }
 
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+* {
+	box-sizing: border-box;
+	
+}
 
 body {
     font-family: Noto Sans TC;
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+	background: #fbfbfb;
 }
 img {
     display: block;
@@ -94,6 +100,11 @@ img {
 	justify-content: space-between;
 }
 
+.content .card-list img {
+	max-width: 416px;
+	height: auto;
+}
+
 .content .card-list li.empty {
 	width: 416px;
 	visibility: hidden;
@@ -127,6 +138,7 @@ img {
 	height: 36px;
 	background: #0027d5;
 	color: #ffffff;
+	font-size: 16px;
 	font-weight: 700;
 	line-height: 1.5;
 	display: flex;
