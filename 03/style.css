@@ -350,7 +350,6 @@ body {
     width: calc(33.333% - 24px);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .blog-card-img {
     margin-bottom: 16px;
